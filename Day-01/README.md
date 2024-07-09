@@ -5,6 +5,8 @@
 <h3>Install Ansible in Ubunt</h3>
 
 <ul>
+  <li>sudo apt-add-repository ppa: ansible/ansible
+</li>
   <li>
     sudo apt update
   </li>
@@ -16,7 +18,12 @@
   </li>
 </ul>
 
+
+
+
 <h3>Set up an SSH Key pair</h3>
 <ul>
+  <li>ssh-keygen</li>
   <li>ssh-copy-id [username]@[remote-host]</li>
+  <li>ssh-copy-id ansible@192.168.0.81</li>
 </ul>
