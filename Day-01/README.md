@@ -4,3 +4,19 @@
 
 <h3>Install Ansible in Ubunt</h3>
 
+<ul>
+  <li>
+    sudo apt update
+  </li>
+  <li>
+    sudo apt install ansible -y
+  </li>
+  <li>
+    ansible --version
+  </li>
+</ul>
+
+<h3>Set up an SSH Key pair</h3>
+<ul>
+  <li>ssh-copy-id [username]@[remote-host]</li>
+</ul>
